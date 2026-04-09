@@ -11,3 +11,9 @@
 #   5 x 10 = 50
 
 # --- YOUR CODE HERE ---
+l=[]
+for i in range(1,11,1):
+   x= 5*i
+  
+   l.append(x)
+print(l)   
