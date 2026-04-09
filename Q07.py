@@ -10,3 +10,13 @@
 # Sample Output 2:  Reversed: 5
 
 # --- YOUR CODE HERE ---
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+l=1234
+rev=0
+while l>0:
+    
+    rem=l%10
+    rev=rev*10+rem
+    l=l//10                                                         
+print(rev)    
