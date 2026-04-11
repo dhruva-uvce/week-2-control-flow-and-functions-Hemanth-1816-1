@@ -30,4 +30,7 @@ elif i<0 and i>100:
 else :
    print("f")
   
-  
+  git add .
+git commit -m "Completed Week 2 assignment"
+git push
+
