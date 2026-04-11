@@ -20,3 +20,6 @@ if y%4==0 and y%400==0:
     print("leap year")
 else:
     print("not leap year")
+git add .
+git commit -m "Completed Week 2 assignment"
+git push
