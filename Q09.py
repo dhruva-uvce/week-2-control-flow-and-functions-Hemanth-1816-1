@@ -17,7 +17,7 @@
 
 def greet(name, greeting="Hello"):
     # --- YOUR CODE HERE ---
-    return "{greetibg},{name}!"
+    return "{greeting},{name}!"
     pass
 
 
@@ -25,7 +25,7 @@ def power(base, exp=2):
     # --- YOUR CODE HERE ---
     return base**exp
     pass
-res=greet(alice)
+res=greet("alice")
 print(res)
 r=power(5)
 print(r)
