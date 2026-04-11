@@ -15,7 +15,7 @@
 
 
 def add_element(lst, element):
-    list.ppend(4)
+    lst.append(element)
     
     pass
 
