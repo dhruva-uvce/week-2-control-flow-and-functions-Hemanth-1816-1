@@ -14,12 +14,13 @@
 # Sample Input 2:   Enter a year: 1900
 # Sample Output 2:  1900 is not a leap year
 
-# --- YOUR CODE HERE ---
-y=int(input("enter the year: "))
-if y%4==0 and y%400==0:
+
+y=int(input(":"))
+if y%400==0:
+    print(" leap year ")
+elif y%100==0:
+    print(" no leap year")
+elif y%4==0:
     print("leap year")
 else:
-    print("not leap year")
-git add .
-git commit -m "Completed Week 2 assignment"
-git push
+    print(" no leap year")
